@@ -25,6 +25,11 @@ namespace GUIA7_ejercicio4
                 muestra.Ingreso(num, num1);
 
             }
+            Console.WriteLine("El Maximo es: " + muestra.Maximo());
+            Console.WriteLine("el Minimo es: "+ muestra.Minimo());
+            Console.WriteLine("el Promedio es: "+ muestra.Promedio());
+            Console.WriteLine("muestras son: " + num1);
+            Console.ReadLine();
         }
     }
 }
